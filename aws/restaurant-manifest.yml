@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: restaurantapp
-          image: lavanyasimham/listofrestaurants-service:latest
+          image: lavanyasimham/listofrestaurants-service:8
           imagePullPolicy: Always
           ports:
             - containerPort: 9091
