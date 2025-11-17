@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: foodcatalogueapp
-          image: lavanyasimham/foodinfo-service:latest4
+          image: lavanyasimham/foodinfo-service:2
           imagePullPolicy: Always
           ports:
             - containerPort: 9093 #
